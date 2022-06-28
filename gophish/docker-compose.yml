@@ -1,0 +1,6 @@
+version: '3'
+services:
+  gophish:
+    image: gophish/gophish
+    ports:
+      - "3333:3333"
